@@ -1,5 +1,9 @@
 pipeline {
   agent any
+
+  environment {
+    PASS = credentials('registry-dockerhub-pass')
+  }
   
   stages {
   

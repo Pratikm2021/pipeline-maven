@@ -5,7 +5,6 @@ echo "*****PUSHING IMAGE*****"
 echo "***********************"
 
 IMAGE="maven-project"
-PASS="@Pratik12"
 BUILD_TAG=2780
 
 echo "***LOGGING IN TO DOCKER***"
