@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    image: "maven-project:2780"
+    build:
+      context: .
+      dockerfile: Dockerfile-java
